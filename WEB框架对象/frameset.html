@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB框架对象</title>
+</head>
+<body>
+<form name="test9_1">
+    请选择城市：<br>
+    <select name="select1" multiple>
+        <option>西藏自治区
+        <option>浙江省
+        <option>海南省
+        <option>江苏省
+        <option>湖南省
+        <option>贵州省
+        <option>云南省
+    </select><br>
+    <hr>
+    <input type="submit" name="" value="提交">
+    <input type="reset" name="" value="复位">
+</form>
+<pre>
+    <script language="JavaScript">
+        document.test9_1.option[0].text = "拉萨市";
+        document.test9_1.option[1].text = "杭州市";
+    </script>
+</pre>
+</body>
+</html>
